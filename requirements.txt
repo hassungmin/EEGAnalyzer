@@ -1,0 +1,5 @@
+PyQt5>=5.15
+pyqtgraph>=0.12
+mne>=1.0
+numpy>=1.19
+pandas>=1.1 
