@@ -16,4 +16,5 @@ build/
 *.egg-info/
 *.bak
 Thumbs.db
-*.csv 
+*.csv
+P3 Raw Data and Scripts Only/ 
