@@ -25,7 +25,7 @@ pip install PyQt5 mne numpy pandas matplotlib
 ## ▶️ 실행 방법
 
 ```bash
-python eeg_analysis_gui.py
+python eeg_analyzer_gui.py
 ```
 
 실행 후 GUI 창이 나타나며, 각 단계별로 EEG 분석 기능을 수행할 수 있습니다.
@@ -34,8 +34,7 @@ python eeg_analysis_gui.py
 
 | 파일명 | 설명 |
 |--------|------|
-| `eeg_analysis_gui.py` | EEG 데이터를 불러오고 전처리(필터, ICA), 에포킹, ERP 분석 및 시각화를 지원하는 메인 GUI 애플리케이션입니다. |
-| `eeg_analyzer_gui.py` | (선택적) GUI 초기 실험 버전 혹은 모듈형 설계가 적용된 버전으로 추정됩니다. 현재 기능은 `eeg_analysis_gui.py`에 통합되어 있습니다. |
+| `eeg_analyzer_gui.py` | EEG 데이터를 불러오고 전처리(필터, ICA), 에포킹, ERP 분석 및 시각화를 지원하는 메인 GUI 애플리케이션입니다. |
 | `generate_test_eeg_data.py` | 임의 EEG 및 이벤트 데이터를 생성하는 스크립트입니다. 실험 전 GUI 기능을 테스트하는 데 유용합니다. |
 
 ## 🔬 주요 기능
